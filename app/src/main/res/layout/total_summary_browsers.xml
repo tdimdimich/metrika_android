@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="163dp"
+              android:gravity="center_vertical"
+        >
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+            >
+        <TableRow>
+
+            <FrameLayout android:id="@+id/firstBrowserBarContainer"
+                         android:layout_width="40dp" android:layout_height="28dp"
+                         android:background="#cecece"
+                         android:layout_gravity="center_vertical"
+                    >
+                <View android:id="@+id/firstBrowserBar"
+                      android:layout_width="30dp" android:layout_height="match_parent"
+                      android:background="#0000ff"
+                      />
+            </FrameLayout>
+
+            <ImageView android:id="@+id/firstBrowserImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginLeft="5dp"
+                       android:src="@drawable/browser_icon_ie"
+                    />
+
+            <TextView android:id="@+id/firstBrowserName"
+                      android:layout_width="wrap_content" android:layout_height="35dp"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#E82626"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="Россия"
+                    />
+
+            <TextView android:id="@+id/firstBrowserValue"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#E82626"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="(56 визитов)"
+                    />
+        </TableRow>
+        <TableRow>
+            <FrameLayout android:id="@+id/secondBrowserBarContainer"
+                         android:layout_width="40dp" android:layout_height="28dp"
+                         android:background="#cecece"
+                         android:layout_gravity="center_vertical"
+                    >
+                <View android:id="@+id/secondBrowserBar"
+                      android:layout_width="20dp" android:layout_height="match_parent"
+                      android:background="#000000"
+                        />
+            </FrameLayout>
+
+            <ImageView android:id="@+id/secondBrowserImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginLeft="5dp"
+                       android:src="@drawable/browser_icon_ie"
+                    />
+
+            <TextView android:id="@+id/secondBrowserName"
+                      android:layout_width="wrap_content" android:layout_height="35dp"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#000000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="Черногороя1"
+                    />
+            <TextView android:id="@+id/secondBrowserValue"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#000000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="(66)"
+                    />
+        </TableRow>
+        <TableRow>
+            <FrameLayout android:id="@+id/thirdBrowserBarContainer"
+                         android:layout_width="40dp" android:layout_height="28dp"
+                         android:background="#cecece"
+                         android:layout_gravity="center_vertical"
+                    >
+                <View android:id="@+id/thirdBrowserBar"
+                      android:layout_width="10dp" android:layout_height="match_parent"
+                      android:background="#000000"
+                        />
+            </FrameLayout>
+
+            <ImageView android:id="@+id/thirdBrowserImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginLeft="5dp"
+                       android:src="@drawable/browser_icon_ie"
+                    />
+
+            <TextView android:id="@+id/thirdBrowserName"
+                      android:layout_width="wrap_content" android:layout_height="35dp"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#000000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="ТайТан"
+                    />
+            <TextView android:id="@+id/thirdBrowserValue"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#000000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="(ваще дофига)"
+                    />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

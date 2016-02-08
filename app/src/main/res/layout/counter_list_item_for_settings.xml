@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="45dp" android:minHeight="45dp"
+              android:orientation="horizontal"
+        >
+
+    <ru.wwdi.metrika.views.CircleView
+        android:id="@+id/circleView"
+              android:layout_width="25dp"
+              android:layout_height="25dp"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="8dp"
+                />
+        <TextView android:id="@+id/counterTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="www.sitename.com"
+                android:layout_gravity="center_vertical" android:textSize="17dp"
+                android:layout_marginLeft="20dp"
+                />
+
+    <ImageButton android:id="@+id/visible"
+                 android:layout_width="45dp" android:layout_height="45dp"
+                 android:src="@drawable/visible_icon"
+                 android:background="@android:color/transparent"
+                 android:scaleType="center"
+            />
+
+    <ImageButton android:id="@+id/settings"
+                 android:layout_width="45dp" android:layout_height="45dp"
+                 android:src="@drawable/edit_icon"
+                 android:background="@android:color/transparent"
+                 android:scaleType="center"
+            />
+
+</LinearLayout>

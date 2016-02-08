@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="163dp"
+              android:gravity="center_vertical"
+        >
+
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/image1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="163dp"
+                   android:src="@drawable/summary_geo_icon"
+                />
+
+        <ImageView android:id="@+id/image2"
+                   android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:layout_marginLeft="70dp"
+                   android:layout_marginTop="37dp"
+                   android:src="@drawable/summary_age_top_line"
+                />
+
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:layout_marginLeft="70dp"
+                   android:layout_marginTop="115dp"
+                   android:src="@drawable/summary_age_bottom_line"
+                   android:background="#ffffff"
+                />
+
+        <View android:layout_width="22dp" android:layout_height="1px"
+              android:background="#CECECE"
+              android:layout_marginLeft="85dp"
+              android:layout_marginTop="81dp"
+                />
+
+    </FrameLayout>
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+            >
+        <TableRow>
+            <TextView android:id="@+id/firstCountryName"
+                      android:layout_width="wrap_content" android:layout_height="43dp"
+                      android:textColor="#E82626"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="Россия"
+                    />
+
+            <TextView android:id="@+id/firstCountryValue"
+                      android:layout_width="wrap_content" android:layout_height="43dp"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#E82626"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="(56 визитов)"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/secondCountryName"
+                      android:layout_width="wrap_content" android:layout_height="43dp"
+                      android:textColor="#000000"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="Черногороя1"
+                    />
+            <TextView android:id="@+id/secondCountryValue"
+                      android:layout_width="wrap_content" android:layout_height="43dp"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#000000"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="(66)"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/thirdCountryName"
+                      android:layout_width="wrap_content" android:layout_height="43dp"
+                      android:textColor="#000000"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="ТайТан"
+                    />
+            <TextView android:id="@+id/thirdCountryValue"
+                      android:layout_width="wrap_content" android:layout_height="43dp"
+                      android:layout_marginLeft="5dp"
+                      android:textColor="#000000"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical"
+                      android:text="(ваще дофига)"
+                    />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

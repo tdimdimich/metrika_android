@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/tipRoot"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/tipBgColor"
+              android:gravity="center"
+              android:clickable="true"
+        >
+
+    <ImageView android:id="@+id/tipImage"
+               android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:src="@drawable/fingerprint"
+               android:clickable="false"
+            />
+
+    <TextView android:id="@+id/tipText"
+              android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textColor="#ffffff" android:textSize="15sp"
+              android:layout_marginTop="30dp"
+              android:text="@string/swipe_tip"
+              android:clickable="false"
+              android:gravity="center_horizontal"
+            />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textColor="#ffffff" android:textSize="12sp"
+              android:layout_marginTop="20dp"
+              android:text="@string/tip_tap_to_continue"
+              android:clickable="false"
+              android:gravity="center_horizontal"
+            />
+
+
+</LinearLayout>

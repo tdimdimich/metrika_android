@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:padding="20dp"
+              android:background="#aa000000"
+        >
+
+        <View android:layout_width="0dp" android:layout_height="0dp"
+              android:layout_weight="3"
+                />
+
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                   android:src="@drawable/stars"
+                />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:textColor="#ffffff" android:textSize="15sp"
+                  android:layout_marginTop="40dp"
+                  android:gravity="center_horizontal"
+                  android:text="@string/rate_app"
+                />
+
+        <Button android:id="@+id/rate"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/red_rectangle_with_shadow"
+                android:textColor="#ffffff"
+                android:textSize="19sp"
+                android:text="@string/rate_title"
+                android:padding="10dp"
+                />
+
+
+        <Button android:id="@+id/remind"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gray_border"
+                android:textColor="#999999"
+                android:textSize="19sp"
+                android:text="@string/remind_me_later"
+                android:padding="10dp"
+                />
+
+        <Button android:id="@+id/noThanks"
+                android:layout_width="100dp" android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#999999" android:textSize="15sp"
+                android:layout_marginTop="30dp"
+                android:text="@string/no_thanks"
+                />
+
+    <View android:layout_width="0dp" android:layout_height="0dp"
+          android:layout_weight="2"
+            />
+
+</LinearLayout>

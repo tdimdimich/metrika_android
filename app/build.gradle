@@ -1,0 +1,94 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "ru.wwdi.metrika"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 17
+        versionName "1.0.17"
+
+        buildConfigField "String", "METRICA_KEY", getString("METRICA_KEY")
+        buildConfigField "String", "GoogleAnalytics_KEY", getString("GoogleAnalytics_KEY")
+    }
+
+    signingConfigs {
+        release
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def fileName = output.outputFile.name.replace(".apk", "-" + defaultConfig.versionName + ".apk");
+                    fileName = fileName.replace(project.name, "millimetrica")
+                    output.outputFile = new File(output.outputFile.parent, fileName)
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:support-v4:22.1.1'
+    compile "com.google.code.gson:gson:2.3"
+    compile('com.crashlytics.sdk.android:crashlytics:2.2.4@aar') {
+        transitive = true;
+    }
+
+}
+// http://stackoverflow.com/questions/18328730/how-to-create-a-release-signed-apk-file-using-gradle
+def Properties signingProps = new Properties()
+def signingPropFile = new File('signing.properties')
+if (signingPropFile.canRead()) {
+    signingProps.load(new FileInputStream(signingPropFile))
+
+    if (signingProps != null && signingProps.containsKey('STORE_FILE') && signingProps.containsKey('STORE_PASSWORD') &&
+            signingProps.containsKey('KEY_ALIAS') && signingProps.containsKey('KEY_PASSWORD')) {
+        android.signingConfigs.release.storeFile = file(signingProps['STORE_FILE'])
+        android.signingConfigs.release.storePassword = signingProps['STORE_PASSWORD']
+        android.signingConfigs.release.keyAlias = signingProps['KEY_ALIAS']
+        android.signingConfigs.release.keyPassword = signingProps['KEY_PASSWORD']
+    } else {
+        println 'signing.properties found but some entries are missing'
+        android.buildTypes.release.signingConfig = null
+    }
+} else {
+    println 'signing.properties not found'
+    android.buildTypes.release.signingConfig = null
+}
+
+String getString(String key) {
+    def Properties props = new Properties()
+    def propFile = new File(project.getRootDir(), "local.properties")
+    props.load(new FileInputStream(propFile))
+
+    def build = null
+    if (props.getProperty(key) != null) {
+        build = props.getProperty(key)
+    }
+    return build != null ? "\"" + build + "\"" : null;
+}

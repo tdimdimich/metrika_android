@@ -1,0 +1,118 @@
+[
+    {
+        "name": "total_summary"
+    },
+    {
+        "name": "attendance"
+    },
+    {
+        "name": "source",
+        "children": [
+            {
+                "name": "summary"
+            },
+            {
+                "name": "sites"
+            },
+            {
+                "name": "search_systems"
+            },
+            {
+                "name": "search_phrases"
+            }
+        ]
+    },
+    {
+        "name": "visitors",
+        "children": [
+            {
+                "name": "by_country"
+            },
+            {
+                "name": "gender_age_structure"
+            },
+            {
+                "name": "by_depth_view"
+            },
+            {
+                "name": "by_time"
+            },
+            {
+                "name": "by_part_of_day"
+            }
+        ]
+    },
+    {
+        "name": "content",
+        "children": [
+            {
+                "name": "popular"
+            },
+            {
+                "name": "enter_pages"
+            },
+            {
+                "name": "exit_pages"
+            },
+            {
+                "name": "page_titles"
+            },
+            {
+                "name": "url_parameters"
+            }
+        ]
+    },
+    {
+        "name": "technology",
+        "children": [
+            {
+                "name": "browsers"
+            },
+            {
+                "name": "operating_systems"
+            },
+            {
+                "name": "display_groups"
+            },
+            {
+                "name": "display_resolutions"
+            },
+            {
+                "name": "device_types"
+            },
+            {
+                "name": "mobile_devices"
+            },
+            {
+                "name": "flash_versions"
+            },
+            {
+                "name": "silverlight_versions"
+            },
+            {
+                "name": "java_availability"
+            },
+            {
+                "name": "cookies_availability"
+            },
+            {
+                "name": "javascript_availability"
+            }
+        ]
+    },
+    {
+        "name": "settings",
+        "selectable": false
+    },
+    {
+        "name": "creators"
+    },
+    {
+        "name": "share",
+        "selectable": false
+    },
+    {
+        "name": "exit",
+        "selectable": false
+    }
+]

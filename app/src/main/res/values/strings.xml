@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Millimetrika</string>
+
+    <string name="total_summary">Summary</string>
+    <string name="attendance">Traffic</string>
+    <string name="source">Sources</string>
+    <string name="summary">Summary</string>
+    <string name="sites">Sites</string>
+    <string name="search_systems">Search engines</string>
+    <string name="search_phrases">Search phrases</string>
+    <string name="visitors">Visitors</string>
+    <string name="by_country">Countries</string>
+    <string name="gender_age_structure">Gender-age structure</string>
+    <string name="by_depth_view">By page depth</string>
+    <string name="by_time">By time</string>
+    <string name="by_part_of_day">By time of day</string>
+    <string name="content">Content</string>
+    <string name="popular">Most popular</string>
+    <string name="enter_pages">Entry pages</string>
+    <string name="exit_pages">Exit pages</string>
+    <string name="page_titles">Page titles</string>
+    <string name="url_parameters">URL parameters</string>
+    <string name="technology">Tech Specs</string>
+    <string name="browsers">Browsers</string>
+    <string name="operating_systems">Operating systems</string>
+    <string name="display_groups">Type of monitor</string>
+    <string name="display_resolutions">Monitor resolution</string>
+    <string name="device_types">Device types</string>
+    <string name="mobile_devices">Cell phones and PDAs</string>
+    <string name="flash_versions">Flash version</string>
+    <string name="silverlight_versions">Silverlight version</string>
+    <string name="java_availability">Java</string>
+    <string name="cookies_availability">Cookies</string>
+    <string name="javascript_availability">Javascript</string>
+    <string name="settings">Settings</string>
+    <string name="creators">Creators</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+
+    <string name="today">Today</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+    <string name="counters">Counters</string>
+    <string name="back">Back</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="counter_list_text">You can change the color of a counter in the settings, in sectio of account management.</string>
+    <string name="millimetrika">Millimetrika</string>
+    <string name="easy_analytics">Convenient analytics</string>
+    <string name="metrika_account">Yandex Metrica Account</string>
+    <string name="producing">Producing</string>
+    <string name="alex_poimntsev">Alexey Poimtsev</string>
+    <string name="project_managment">Project management</string>
+    <string name="stas_karasev">Stanislav Karasev</string>
+    <string name="max_butrim">Maxim Butrim</string>
+    <string name="developers">Development</string>
+    <string name="dmitry_korotchenkov">Dmitry Korotchenkov</string>
+    <string name="vladimir_ryashentsev">Vladimir Ryashentsev</string>
+    <string name="design">Design</string>
+    <string name="indy_let">Indy Letterhead</string>
+    <string name="thanks">We thank all the team of Progress Engine, who helped us in development of Millimetrica.</string>
+    <string name="dedication">We dedicate this project to the bright memory of the Great Man and respected professional.</string>
+    <string name="segalovich">Ilya Segalovich</string>
+    <string name="segalovich_life">(13.09.1964 - 27.07.2013)</string>
+    <string name="contact_with_developers">Contact the development team:</string>
+    <string name="no_email_clients">You have no installed email clients.</string>
+
+    <string name="total_summary_visitors1">visitors per time period.</string>
+    <string name="total_summary_visitors2">From them <b>%d</b> - maximum auditory per day.</string>
+    <string name="total_summary_time1">spends, on average, a visitor on a page.</string>
+    <string name="total_summary_time2">Record: %s - <b>%s</b></string>
+    <string name="total_summary_source"><b>%d</b> - %s.</string>
+
+    <string name="hours">%.1f hours.</string>
+    <string name="minutes">%.1f min.</string>
+    <string name="seconds">%d sec.</string>
+
+    <plurals name="visits">
+        <item quantity="one">(%d visit)</item>
+        <item quantity="other">(%d visits)</item>
+    </plurals>
+
+    <string name="chart">Plot:</string>
+    <string name="min">min.:</string>
+    <string name="max">max.:</string>
+
+    <!--Traffic-->
+    <string name="traffic_visits">Visits:</string>
+    <string name="traffic_views">Page views:</string>
+    <string name="traffic_visitors">Visitors:</string>
+    <string name="traffic_new">New visitors:</string>
+    <string name="traffic_denies">Bounce rate:</string>
+    <string name="traffic_depth">Page depth:</string>
+    <string name="traffic_time">Time on site:</string>
+
+    <string name="line_visits">Visits</string>
+    <string name="line_visits_perc">Share of visits</string>
+    <string name="line_views">Page views</string>
+    <string name="line_visitors">Visitors</string>
+    <string name="line_new">New visitors</string>
+    <string name="line_denial">Bounce rate</string>
+    <string name="line_depth">Page depth</string>
+    <string name="line_time">Time on site</string>
+    <string name="line_delayed">Returning</string>
+    <string name="line_entrance">Entry pages</string>
+    <string name="line_exits">Exit pages</string>
+
+    <string name="others">Others</string>
+    <string name="share_text">Millimetrika. Convenient alatytics.</string>
+    <string name="share_url" translatable="false">https://play.google.com/store/apps/details?id=com.wwdi.metrika</string>
+    <string name="no_application_for_sharing">No applications for sharing</string>
+    <string name="cant_get_counter_list">Can\'t get counter list.</string>
+    <string name="no_available_counters">You have no available counters.</string>
+    <string name="warning">Warning</string>
+    <string name="retry">Retry?</string>
+    <string name="error_connection1">The attempt to connect to a server failed.</string>
+    <string name="error_connection2">Check your Internet connection or repeat request later.</string>
+    <string name="error_no_data">There is no information for the selected period.</string>
+    <string name="rate_app">Please, rate our application.</string>
+    <string name="rate_title">Rate Millimetrika</string>
+    <string name="remind_me_later">Remind me later</string>
+    <string name="no_thanks">No, thanks (continue)</string>
+    <string name="no_cookies">Cookies disabled or not supported</string>
+    <string name="swipe_tip">Scroll the screen\nto the right to open the menu.</string>
+    <string name="rotate_tip">Turn the phone\nto learn more about the schedule.</string>
+    <string name="tip_tap_to_continue">Tap the screen\nto continue.</string>
+
+</resources>

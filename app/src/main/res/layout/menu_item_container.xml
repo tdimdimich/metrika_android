@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ru.wwdi.metrika.menu.MenuItemContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <LinearLayout android:id="@+id/top_line"
+                  android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:gravity="bottom"
+                  android:padding="15dp"
+            >
+
+        <TextView android:id="@+id/name"
+                  android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="asdasd"
+                  android:textSize="17sp"
+                  android:textColor="@color/left_menu_text_color"
+                />
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@+id/more"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:background="@drawable/menu_more_items_icon"
+                         android:layout_marginLeft="10dp"
+                    />
+
+            <ImageButton android:id="@+id/less"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:background="@drawable/menu_opened_cell_icon"
+                         android:layout_marginLeft="10dp"
+                    />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View android:id="@+id/dotted_line"
+          android:layout_width="match_parent" android:layout_height="4dp"
+          android:background="@drawable/dotted_line_light_gray"
+          android:layerType="software"
+          android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            />
+
+    <LinearLayout android:id="@+id/childrenContainer"
+                  android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginLeft="10dp"
+            >
+
+    </LinearLayout>
+
+</ru.wwdi.metrika.menu.MenuItemContainerView>

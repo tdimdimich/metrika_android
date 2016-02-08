@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="163dp"
+              android:gravity="center_vertical"
+        >
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="163dp"
+               android:src="@drawable/summary_time_icon"
+            />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp" android:layout_marginRight="5dp"
+                  android:orientation="vertical"
+            >
+
+        <TextView android:id="@+id/avarageTime"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textColor="#000000"
+                  android:textSize="50sp"
+                  android:textStyle="bold"
+                  android:text="21 сек."
+                />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:textColor="#000000"
+                  android:textSize="10sp"
+                  android:text="@string/total_summary_time1"
+                />
+
+        <TextView android:id="@+id/maxForDay"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginTop="2dp"
+                  android:textColor="#000000"
+                  android:textSize="10sp"
+                  android:text="@string/total_summary_time2"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>

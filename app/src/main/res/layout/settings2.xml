@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+        >
+
+    <LinearLayout android:id="@+id/back"
+                  android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+            >
+
+        <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                   android:src="@drawable/back_icon"
+                   android:scaleType="center"
+                   android:clickable="false"
+                />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:textColor="#4082E3"
+                  android:textSize="15sp"
+                  android:text="@string/back"
+                  android:clickable="false"
+                />
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1px"
+          android:background="#aaaaaa"
+            />
+
+    <ru.wwdi.metrika.screens.counterList.CounterListItemView
+        android:id="@+id/currentCounter"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+            />
+
+    <View android:layout_width="match_parent" android:layout_height="1px"
+          android:background="#aaaaaa"
+            />
+
+    <GridView android:id="@+id/colorsGrid"
+              android:layout_width="match_parent" android:layout_height="0dp"
+              android:layout_weight="1"
+              android:columnWidth="25dp"
+              android:numColumns="auto_fit"
+              android:gravity="center"
+              android:horizontalSpacing="10dp"
+              android:verticalSpacing="10dp"
+              android:padding="10dp"
+              android:listSelector="@android:color/transparent"
+            >
+
+    </GridView>
+
+    <ImageButton android:id="@+id/confirm"
+                 android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 android:background="@drawable/ok_button"
+                 android:layout_margin="10dp"
+            />
+
+
+</LinearLayout>

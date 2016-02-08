@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+        >
+
+    <LinearLayout android:id="@+id/topLine"
+                  android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+                  android:padding="5dp"
+            >
+
+        <TextView android:id="@+id/title"
+                  android:layout_width="0dp" android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textColor="#000000" android:textSize="12sp"
+                  android:text="Визиты:"
+                />
+
+        <TextView android:id="@+id/value"
+                  android:layout_width="70dp" android:layout_height="wrap_content"
+                  android:gravity="right"
+                  android:textColor="#000000" android:textSize="17sp" android:textStyle="bold"
+                  android:text="12"
+                />
+
+        <View android:layout_width="1px" android:layout_height="match_parent"
+              android:background="#cecece"
+              android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+                />
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="bottom"
+                >
+
+            <ImageView android:id="@+id/points"
+                       android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/table_cell_points_icon"
+                       android:visibility="gone"
+                    />
+
+            <ImageView android:id="@+id/arrow"
+                       android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/table_cell_arrow_icon"
+                    />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/sublinesContainer"
+                  android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="5dp"
+            >
+
+        <ru.wwdi.metrika.screens.base.SourceSubline
+            android:id="@+id/subline1"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="wrap_content"
+                />
+
+
+        <ru.wwdi.metrika.screens.base.SourceSubline
+            android:id="@+id/subline2"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="wrap_content"
+                />
+
+        <ru.wwdi.metrika.screens.base.SourceSubline
+            android:id="@+id/subline3"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="wrap_content"
+                />
+
+        <ru.wwdi.metrika.screens.base.SourceSubline
+            android:id="@+id/subline4"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="wrap_content"
+                />
+
+        <ru.wwdi.metrika.screens.base.SourceSubline
+            android:id="@+id/subline5"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="wrap_content"
+                />
+
+        <ru.wwdi.metrika.screens.base.SourceSubline
+            android:id="@+id/subline6"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="wrap_content"
+                />
+
+
+    </LinearLayout>
+
+    <View android:id="@+id/lineDivider"
+          android:layout_width="match_parent" android:layout_height="1px"
+          android:background="#cecece"
+            />
+
+</LinearLayout>

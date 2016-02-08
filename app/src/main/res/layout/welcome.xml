@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1" android:gravity="top"
+              android:background="#ffffff">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="90dp" android:gravity="center_horizontal">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:gravity="right|top" android:layout_gravity="right">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/millimetrika"
+                    android:id="@+id/textView"
+                    android:typeface="sans" android:textSize="36dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/easy_analytics"
+                    android:id="@+id/textView2" android:layout_gravity="bottom|right" android:textColor="#818181"
+                    android:textSize="18dp" android:typeface="sans"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/welcome_page_logo"
+                android:layout_gravity="bottom" android:layout_alignParentBottom="true" android:scaleType="fitEnd"
+                android:cropToPadding="false"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/metrika_account"
+                android:id="@+id/enterButton" android:layout_gravity="center_horizontal"
+                android:background="@drawable/login_button" android:textColor="#ffffff"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+                android:layout_marginTop="98dp" android:clickable="true" android:enabled="true"
+                android:focusable="true"/>
+    </RelativeLayout>
+</LinearLayout>

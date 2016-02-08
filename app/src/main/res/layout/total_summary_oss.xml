@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="163dp"
+              android:gravity="bottom"
+        >
+
+    <LinearLayout android:id="@+id/secondContainer"
+                  android:layout_width="0dp" android:layout_height="163dp"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal|bottom"
+            >
+
+        <ImageView android:id="@+id/secondOsImage"
+                   android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/browser_icon_opera"
+                />
+
+        <LinearLayout android:id="@+id/secondOsBar"
+                      android:layout_width="match_parent" android:layout_height="80dp"
+                      android:layout_marginTop="10dp"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:background="#cecece"
+                >
+
+            <TextView android:id="@+id/secondOsName"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                      android:text="iOs"
+                    />
+
+            <TextView android:id="@+id/secondOsValue"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="15sp"
+                      android:text="(25.6%)"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/firstContainer"
+                  android:layout_width="0dp" android:layout_height="163dp"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal|bottom"
+            >
+
+        <ImageView android:id="@+id/firstOsImage"
+                   android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/browser_icon_opera"
+                />
+
+        <LinearLayout android:id="@+id/firstOsBar"
+                      android:layout_width="match_parent" android:layout_height="100dp"
+                      android:layout_marginTop="10dp"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:background="#00ff00"
+                >
+
+            <TextView android:id="@+id/firstOsName"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:textColor="#ffffff"
+                      android:textSize="12sp"
+                      android:text="iOs"
+                    />
+
+            <TextView android:id="@+id/firstOsValue"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:textStyle="bold"
+                      android:textColor="#ffffff"
+                      android:textSize="15sp"
+                      android:text="(25.6%)"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/thirdContainer"
+                  android:layout_width="0dp" android:layout_height="163dp"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal|bottom"
+            >
+
+        <ImageView android:id="@+id/thirdOsImage"
+                   android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/browser_icon_opera"
+                />
+
+        <LinearLayout android:id="@+id/thirdOsBar"
+                      android:layout_width="match_parent" android:layout_height="60dp"
+                      android:layout_marginTop="10dp"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:background="#cecece"
+                >
+
+            <TextView android:id="@+id/thirdOsName"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                      android:text="iOs"
+                    />
+
+            <TextView android:id="@+id/thirdOsValue"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="15sp"
+                      android:text="(25.6%)"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

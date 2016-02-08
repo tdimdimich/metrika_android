@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:id="@+id/swipeRefreshLayout"
+                                              android:layout_width="match_parent" android:layout_height="match_parent"
+                                              android:background="#ffffff"
+        >
+
+    <ru.wwdi.metrika.views.ScrollViewWithDisablableScrolling
+        android:id="@+id/scrollView"
+                android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                >
+
+            <LinearLayout android:id="@+id/chartContainer"
+                          android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:background="#000000"
+                    >
+
+                <ru.wwdi.metrika.screens.traffic.chart.Chart
+                    android:id="@+id/chart"
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:background="#464749"
+                        />
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal"
+                              android:gravity="center_vertical"
+                              android:background="#464749"
+                              android:padding="5dp"
+                        >
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:textSize="12sp"
+                              android:textColor="#cecece"
+                              android:text="@string/chart"
+                            />
+
+                    <Spinner android:id="@+id/chartSourceTypes"
+                             android:layout_width="wrap_content" android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:background="@android:color/transparent"
+                            />
+
+                    <View android:layout_width="0dp" android:layout_height="0dp"
+                          android:layout_weight="1"
+                            />
+
+                    <ImageButton android:id="@+id/chartType"
+                                 android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                 android:src="@drawable/traffic_graph_col"
+                                 android:background="@android:color/transparent"
+                            />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/linesContainer"
+                          android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                    >
+
+                <ru.wwdi.metrika.screens.traffic.TrafficStatLine
+                    android:id="@+id/line1"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"/>
+
+                <ru.wwdi.metrika.screens.traffic.TrafficStatLine
+                    android:id="@+id/line2"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"/>
+
+                <ru.wwdi.metrika.screens.traffic.TrafficStatLine
+                    android:id="@+id/line3"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"/>
+
+                <ru.wwdi.metrika.screens.traffic.TrafficStatLine
+                    android:id="@+id/line4"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"/>
+
+                <ru.wwdi.metrika.screens.traffic.TrafficStatLine
+                    android:id="@+id/line5"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"/>
+
+                <ru.wwdi.metrika.screens.traffic.TrafficStatLine
+                    android:id="@+id/line6"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"/>
+
+                <ru.wwdi.metrika.screens.traffic.TrafficStatLine
+                    android:id="@+id/line7"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ru.wwdi.metrika.views.ScrollViewWithDisablableScrolling>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+        >
+
+    <ru.wwdi.metrika.views.AlphaContainer
+        android:id="@+id/bigPanelAlphaContainer"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+        <ru.wwdi.metrika.views.ScrollViewWithDisablableScrolling
+            android:id="@+id/scrollView"
+                                                                  android:layout_width="match_parent" android:layout_height="match_parent"
+                                                                  android:scrollbars="none"
+                >
+
+            <LinearLayout android:id="@+id/bigPanel"
+                            android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                    >
+
+                <LinearLayout android:orientation="horizontal"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                        >
+
+                    <ListView android:id="@+id/counterList"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:layout_marginLeft="10dp"
+                              android:layout_weight="1"
+                              android:divider="#aaaaaa"
+                              android:dividerHeight="1px"
+                              android:listSelector="@android:color/transparent"
+                            />
+
+                    <ImageView android:id="@+id/calendar"
+                               android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:background="@drawable/date_pick_icon_dark"
+                               android:layout_alignTop="@+id/counterList"
+                               android:layout_alignParentRight="true"
+                               android:layout_margin="10dp"
+                            />
+
+                </LinearLayout>
+
+
+                <ImageButton android:id="@+id/confirm"
+                             android:layout_width="100dp" android:layout_height="wrap_content"
+                             android:background="@drawable/ok_button"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+                        />
+
+                <FrameLayout android:id="@+id/minimize"
+                             android:layout_width="match_parent" android:layout_height="50dp"
+                             android:padding="10dp"
+                        >
+
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:src="@drawable/button_minimize"
+                               android:layout_gravity="center"
+                            />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </ru.wwdi.metrika.views.ScrollViewWithDisablableScrolling>
+
+    </ru.wwdi.metrika.views.AlphaContainer>
+
+
+    <ru.wwdi.metrika.views.AlphaContainer
+        android:id="@+id/smallPanelAlphaContainer"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             android:layout_alignBottom="@+id/bigPanelAlphaContainer"
+            >
+
+        <LinearLayout android:id="@+id/smallPanel"
+                      android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                >
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+                          android:orientation="horizontal"
+                          android:gravity="center_vertical"
+                          android:paddingLeft="10dp"
+                          android:paddingRight="10dp"
+                          android:clickable="false"
+                    >
+
+                <ru.wwdi.metrika.screens.counterList.CounterListItemView
+                    android:id="@+id/currentCounter"
+                                                                    android:layout_width="0dp"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:layout_weight="1"
+                        />
+
+                <ImageView android:id="@+id/maximize"
+                           android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:background="@drawable/button_maximize"
+                        />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ru.wwdi.metrika.views.AlphaContainer>
+
+    <View android:layout_width="match_parent" android:layout_height="2px"
+          android:layout_alignBottom="@+id/bigPanelAlphaContainer"
+          android:background="#aaaaaa"
+            />
+
+</RelativeLayout>

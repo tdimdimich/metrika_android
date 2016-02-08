@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Миллиметрика</string>
+
+    <string name="total_summary">Общая сводка</string>
+    <string name="attendance">Посещаемость</string>
+    <string name="source">Источники</string>
+    <string name="summary">Сводка</string>
+    <string name="sites">Сайты</string>
+    <string name="search_systems">Поисковые системы</string>
+    <string name="search_phrases">Поисковые фразы</string>
+    <string name="visitors">Посетители</string>
+    <string name="by_country">По странам мира</string>
+    <string name="gender_age_structure">Половозрастная структура</string>
+    <string name="by_depth_view">По глубине просмотра</string>
+    <string name="by_time">По времени</string>
+    <string name="by_part_of_day">По времени суток</string>
+    <string name="content">Содержание</string>
+    <string name="popular">Популярное</string>
+    <string name="enter_pages">Страницы входа</string>
+    <string name="exit_pages">Страницы выхода</string>
+    <string name="page_titles">Заголовки страниц</string>
+    <string name="url_parameters">Параметры URL</string>
+    <string name="technology">Технологии</string>
+    <string name="browsers">Браузеры</string>
+    <string name="operating_systems">Операционные системы</string>
+    <string name="display_groups">Группы дисплеев</string>
+    <string name="display_resolutions">Разрешения дисплеев</string>
+    <string name="device_types">Типы устройств</string>
+    <string name="mobile_devices">Мобильные устройства</string>
+    <string name="flash_versions">Версии Flash</string>
+    <string name="silverlight_versions">Версии Silverlight</string>
+    <string name="java_availability">Наличие Java</string>
+    <string name="cookies_availability">Наличие Cookies</string>
+    <string name="javascript_availability">Наличие Javascript</string>
+    <string name="settings">Настройки</string>
+    <string name="creators">Создатели</string>
+    <string name="share">Поделиться</string>
+    <string name="exit">Выход</string>
+
+    <string name="today">Сегодня</string>
+    <string name="week">Неделя</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+
+    <string name="counters">Счетчики</string>
+    <string name="back">Назад</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="counter_list_text">Цвет и название счетчика можно изменить в настройках, в разделе управления учетными записями</string>
+    <string name="millimetrika">Миллиметрика</string>
+    <string name="easy_analytics">Удобная аналитика</string>
+    <string name="metrika_account">Учетная запись Яндекс.Метрики</string>
+    <string name="producing">Продюсирование</string>
+    <string name="alex_poimntsev">Алексей Поимцев</string>
+    <string name="project_managment">Управление проектом</string>
+    <string name="stas_karasev">Станислав Карасев</string>
+    <string name="max_butrim">Максим Бутрим</string>
+    <string name="developers">Разработчики</string>
+    <string name="dmitry_korotchenkov">Дмитрий Коротченков</string>
+    <string name="vladimir_ryashentsev">Владимир Ряшенцев</string>
+    <string name="design">Дизайн</string>
+    <string name="indy_let">Indy Letterhead</string>
+    <string name="thanks">Огромное спасибо всем сотрудникам компании Progress Engine, помогавшим словом и делом в развитии Миллиметрики.</string>
+    <string name="dedication">Мы посвящаем этот проект светлой памяти Великого Человека и уважаемого профессионала.</string>
+    <string name="segalovich">Илья Валентинович Сегалович</string>
+    <string name="segalovich_life">(13.09.1964 - 27.07.2013)</string>
+    <string name="contact_with_developers">Связаться с командой разработчиков:</string>
+    <string name="no_email_clients">Нет установленны почтовых клиентов</string>
+
+    <string name="total_summary_visitors1">посетителей за выбранный промежуток времени.</string>
+    <string name="total_summary_visitors2">Из них <b>%d</b> - максимаольная аудитория за сутки.</string>
+    <string name="total_summary_time1">проводит, в среднем, посетитель на странице.</string>
+    <string name="total_summary_time2">Рекорд: %s - <b>%s</b></string>
+    <string name="total_summary_source"><b>%d</b> - %s.</string>
+
+    <string name="hours">%.1f час.</string>
+    <string name="minutes">%.1f мин.</string>
+    <string name="seconds">%d сек.</string>
+
+    <plurals name="visits">
+        <item quantity="one">(%d визит)</item>
+        <item quantity="other">(%d визитов)</item>
+        <item quantity="many">(%d визитов)</item>
+        <item quantity="few">(%d визита)</item>
+    </plurals>
+
+    <string name="chart">График:</string>
+    <string name="min">мин.:</string>
+    <string name="max">макс.:</string>
+
+    <!--Traffic-->
+    <string name="traffic_visits">Визиты:</string>
+    <string name="traffic_views">Просмотры:</string>
+    <string name="traffic_visitors">Посетители:</string>
+    <string name="traffic_new">Новые:</string>
+    <string name="traffic_denies">Отказы:</string>
+    <string name="traffic_depth">Глубина просмотра:</string>
+    <string name="traffic_time">Время на сайте:</string>
+
+    <string name="line_visits">Визиты</string>
+    <string name="line_visits_perc">Доля визитов</string>
+    <string name="line_views">Просмотры</string>
+    <string name="line_visitors">Посетители</string>
+    <string name="line_new">Новые</string>
+    <string name="line_denial">Отказы</string>
+    <string name="line_depth">Глубина просмотра</string>
+    <string name="line_time">Время на сайте</string>
+    <string name="line_delayed">Вернувшиеся</string>
+    <string name="line_entrance">Входы</string>
+    <string name="line_exits">Выходы</string>
+
+    <string name="others">Другие</string>
+    <string name="share_text">Миллиметрика. Удобная аналитика.</string>
+    <string name="no_application_for_sharing">Нет приложений с помощью которых можно поделиться вашей радостью по поводу Миллиметрики</string>
+    <string name="cant_get_counter_list">Не удалось получить список счетчиков</string>
+    <string name="no_available_counters">У вас нет доступных счетчиков</string>
+    <string name="warning">Внимание</string>
+    <string name="retry">Повторить попытку?</string>
+    <string name="error_connection1">При попытке связаться с сервером, произошла ошибка.</string>
+    <string name="error_connection2">Проверьте подключение к интернету или повторите попытку позднее.</string>
+    <string name="error_no_data">Нет данных за выбранный период.</string>
+    <string name="rate_app">Пожалуйста, оцените наше приолжение.</string>
+    <string name="rate_title">Оценить Миллиметрику</string>
+    <string name="remind_me_later">Напомнить позже</string>
+    <string name="no_thanks">Нет, спасибо (продолжить)</string>
+    <string name="no_cookies">Cookies отключны или не поддерживаются</string>
+    <string name="swipe_tip">Сдвиньте экран вправо,\nчтобы открыть меню.</string>
+    <string name="rotate_tip">Поверните телефон,\nчтобы подробнее ознакомиться с графиком.</string>
+    <string name="tip_tap_to_continue">Нажмите на экран\nчтобы продолжить.</string>
+
+</resources>

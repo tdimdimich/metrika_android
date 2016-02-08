@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="date_interval_tab_color">#4082E3</color>
+    <color name="date_interval_tab_disabled_color">#aaaaaa</color>
+    <color name="tipBgColor">#99000000</color>
+
+</resources>

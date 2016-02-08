@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="45dp" android:minHeight="45dp"
+        >
+
+    <ru.wwdi.metrika.views.CircleView
+        android:id="@+id/circleView"
+              android:layout_width="25dp"
+              android:layout_height="25dp"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="8dp"
+                />
+        <TextView android:id="@+id/counterTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.sitename.com"
+                android:layout_gravity="center_vertical" android:textSize="17dp"
+                android:layout_marginLeft="40dp"
+                />
+
+</FrameLayout>

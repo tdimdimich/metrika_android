@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+        >
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal"
+            >
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="center_horizontal"
+                      android:padding="30dp"
+                >
+
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:gravity="right"
+                          android:layout_marginTop="10dp"
+                    >
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/millimetrika"
+                          android:textColor="#000000"
+                          android:textSize="34sp"
+                        />
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/easy_analytics"
+                          android:textColor="#777777"
+                          android:textSize="16sp"
+                          android:layout_marginTop="5dp"
+                        />
+
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="90dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/producing"
+                      android:textColor="#777777"
+                      android:textSize="11sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/alex_poimntsev"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="60dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/project_managment"
+                      android:textColor="#777777"
+                      android:textSize="11sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/max_butrim"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:gravity="center_horizontal"
+                      android:text="@string/stas_karasev"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="60dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/developers"
+                      android:textColor="#777777"
+                      android:textSize="11sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/dmitry_korotchenkov"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:gravity="center_horizontal"
+                      android:text="@string/vladimir_ryashentsev"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="60dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/design"
+                      android:textColor="#777777"
+                      android:textSize="11sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/indy_let"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="12sp"
+                    />
+
+            <View android:layout_width="50dp" android:layout_height="1px"
+                  android:background="#666666"
+                  android:layout_marginTop="50dp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="50dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/thanks"
+                      android:textColor="#000000"
+                      android:textSize="12sp"
+                    />
+
+            <View android:layout_width="50dp" android:layout_height="1px"
+                  android:background="#666666"
+                  android:layout_marginTop="50dp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="50dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/dedication"
+                      android:textColor="#000000"
+                      android:textSize="12sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="20dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/segalovich"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="15sp"
+                    />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="0dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/segalovich_life"
+                      android:textColor="#000000"
+                      android:textStyle="bold"
+                      android:textSize="11sp"
+                    />
+
+        </LinearLayout>
+
+        <ImageView android:id="@+id/photo"
+                   android:layout_width="match_parent" android:layout_height="wrap_content"
+                   android:src="@drawable/segalovich_photo"
+                   android:scaleType="centerCrop"
+                />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="center_horizontal"
+                      android:padding="30dp"
+                >
+
+            <View android:layout_width="50dp" android:layout_height="1px"
+                  android:background="#666666"
+                  android:layout_marginTop="20dp"
+                    />
+
+            <TextView android:layout_width="150dp" android:layout_height="wrap_content"
+                      android:layout_marginTop="50dp"
+                      android:gravity="center_horizontal"
+                      android:text="@string/contact_with_developers"
+                      android:textColor="#000000"
+                      android:textSize="12sp"
+                    />
+
+            <Button android:id="@+id/siteLink"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/red_border"
+                    android:textColor="#D24444"
+                    android:textSize="19sp"
+                    android:text="www.progress-engine.ru"
+                    android:padding="10dp"
+                    />
+
+            <Button android:id="@+id/emailLink"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/red_rectangle_with_shadow"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp"
+                    android:text="info@progress-engine.ru"
+                    android:padding="10dp"
+                    />
+
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1px"
+              android:background="#cecece"
+                />
+
+        <Button android:id="@+id/share"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+                android:background="@drawable/red_rectangle_with_shadow"
+                android:textColor="#ffffff"
+                android:textSize="19sp"
+                android:text="@string/share"
+                android:padding="10dp"
+                />
+
+    </LinearLayout>
+
+</ScrollView>

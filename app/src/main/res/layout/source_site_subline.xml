@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:paddingLeft="5dp" android:paddingBottom="5dp" android:paddingTop="5dp"
+        >
+
+    <TextView android:id="@+id/subLineTitle"
+              android:layout_width="0dp" android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:textColor="#000000" android:textSize="10sp"
+              android:text="05 мая - 06 мая"
+            />
+
+    <TextView android:id="@+id/subLineValue"
+              android:layout_width="70dp" android:layout_height="wrap_content"
+              android:textColor="#000000" android:textSize="15sp" android:textStyle="bold"
+              android:gravity="right"
+              android:text="233 мин."
+            />
+
+    <RelativeLayout android:layout_width="0dp" android:layout_height="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#cecece"
+            >
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:weightSum="100"
+                >
+
+            <RelativeLayout android:id="@+id/subLineBar"
+                  android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="40"
+                  android:background="#ff0000"
+                    >
+
+                <TextView android:id="@+id/subLinePerc2"
+                          android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_alignParentRight="true"
+                          android:layout_centerVertical="true"
+                          android:layout_marginRight="5dp"
+                          android:textColor="#ffffff" android:textSize="10sp"
+                          android:text="70%"
+                        />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/subLinePerc1"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginRight="5dp"
+                  android:textColor="#000000" android:textSize="10sp"
+                  android:text="30%"
+                />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/bg"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="163dp"
+              android:background="#E82626"
+        >
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="163dp"
+               android:src="@drawable/summary_users_icon"
+               android:layout_alignParentRight="true"
+            />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+                  android:layout_centerInParent="true"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal"
+            >
+
+        <TextView android:id="@+id/totalVisitors"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textColor="#ffffff"
+                  android:textSize="50sp"
+                  android:textStyle="bold"
+                  android:text="66"
+                />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:textColor="#ffffff"
+                  android:textSize="10sp"
+                  android:text="@string/total_summary_visitors1"
+                />
+
+        <TextView android:id="@+id/maxForDay"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginTop="2dp"
+                  android:textColor="#ffffff"
+                  android:textSize="10sp"
+                  android:text="@string/total_summary_visitors2"
+                />
+
+    </LinearLayout>
+
+</RelativeLayout>
